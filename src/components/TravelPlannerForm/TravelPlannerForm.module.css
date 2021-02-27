@@ -1,0 +1,32 @@
+.form{
+  height: 800px;
+  width:  600px;
+  border: solid;
+  background-color: aqua;
+ 
+}
+.nameForm{
+
+}
+.timePicker{
+  display: inline;
+  margin: 10px
+}
+.select{
+  margin: 10px
+}
+.textarea{
+  margin: 10px
+}
+
+.buttonsInline{
+  display: inline;
+  margin: 10px
+}
+.okButton{
+  color: green;
+  margin: 10px;
+}
+.cancelButton{
+  margin:10px;
+}
