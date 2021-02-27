@@ -1,0 +1,29 @@
+.trips-heading {
+  margin-top: 30px;
+  text-align: center;
+}
+.trip-card {
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 860px) {
+  .trips-heading {
+    margin-top: 100px;
+  }
+  .trips-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .trip-card {
+    margin: 15px 60px;
+  }
+}

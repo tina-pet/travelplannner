@@ -38,6 +38,12 @@ export default {
     }).then((resp) => resp.json());
   },
 
+  itineraryDetail: (itineraryId) => {
+    return fetch(API_SERVER + `/itinerar/${itineraryId}`, {
+      method: 'GET',
+    }).then((resp) => resp.json());
+  },
+
   itemAppend: (data, itineraryId) => {
     return fetch(API_SERVER + `/itinerar/${data.id}/polozka`, {
       method: 'POST',

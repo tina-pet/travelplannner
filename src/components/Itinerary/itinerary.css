@@ -1,0 +1,13 @@
+.itinerary-card {
+  width: 90%;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 860px) {
+  .itinerary-card {
+    margin-top: 100px;
+  }
+}
