@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './home.css';
 
 export const Home = () => {
@@ -12,7 +13,9 @@ export const Home = () => {
             potřebné informace vždy po ruce!
           </p>
         </div>
-        <button className="sign-in">Přihlásit se</button>
+        <button className="sign-in">
+          <Link to={'/list'}>Přihlásit se</Link>
+        </button>
       </div>
     </>
   );
