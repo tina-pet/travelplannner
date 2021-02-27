@@ -13,6 +13,9 @@ export const List = () => {
   return (
     <main className="list">
       <h1 className="trips-heading">Moje výlety</h1>
+      <button className="create-trip">
+        <Link to={'/new'}>Naplánovat výlet</Link>
+      </button>
       <div className="trips-container">
         {trips.map((trip) => (
           <div className="trip-card">
